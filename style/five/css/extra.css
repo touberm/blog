@@ -1,0 +1,12 @@
+/* 首页column */
+.column_article{}
+.column_article .column_list{}
+.column_article .column_list li{padding-bottom:10px;}
+.column_article .column_list .tally{vertical-align: middle;font-size:12px;line-height: 24px;display: inline-block;color:#fff;background:#20596d;padding: 0 5px;border-radius: 2px;margin:0px 0px 8px 0px;}
+.column_article .column_list .author{vertical-align: middle;font-size:12px;line-height: 24px;display: inline-block;color:#fff;background:#666;padding: 0 5px;border-radius: 2px;margin:0px 0px 8px 0px;}
+.column_article .column_list .title{clear:both;display:inline-block;font-size:16px;line-height:24px;font-weight:bold;color:#4d4d4d;text-decoration:none;margin:0px 0px 8px 0px;overflow:hidden;vertical-align: middle;}
+.column_article .column_list .introduct{color:#808080;line-height:1.5em;position: relative;}
+.column_article .column_list .introduct .inptime{display: block;position: absolute;bottom:0;right:5px;}
+
+
+
