@@ -1,0 +1,14 @@
+{template "content","header"}
+<div class="container">
+  <div class="row show_blog">
+
+    <h3 class="tally">{$title}</h3>
+    <div><span>{$author}</span>&nbsp;<span>{date('Y-m-d h:i:s',$updatetime)}</span></div>
+    <div class="content">{$content}</div>
+    
+  </div>
+</div>
+
+
+
+{template "content","footer"}

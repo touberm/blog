@@ -1,12 +1,36 @@
+body{background-color:#ddd;font-family: 'Microsoft YaHei';}
+
 /* 首页column */
 .column_article{}
 .column_article .column_list{}
-.column_article .column_list li{padding-bottom:10px;}
+.column_article .column_list li{padding-bottom:10px;border-bottom: 2px solid #f2f2f2;padding-top:10px;}
 .column_article .column_list .tally{vertical-align: middle;font-size:12px;line-height: 24px;display: inline-block;color:#fff;background:#20596d;padding: 0 5px;border-radius: 2px;margin:0px 0px 8px 0px;}
 .column_article .column_list .author{vertical-align: middle;font-size:12px;line-height: 24px;display: inline-block;color:#fff;background:#666;padding: 0 5px;border-radius: 2px;margin:0px 0px 8px 0px;}
 .column_article .column_list .title{clear:both;display:inline-block;font-size:16px;line-height:24px;font-weight:bold;color:#4d4d4d;text-decoration:none;margin:0px 0px 8px 0px;overflow:hidden;vertical-align: middle;}
 .column_article .column_list .introduct{color:#808080;line-height:1.5em;position: relative;}
 .column_article .column_list .introduct .inptime{display: block;position: absolute;bottom:0;right:5px;}
+
+/* cate_blog */
+.cate_blog{}
+.cate_blog .tally{color:#20596d;}
+.cate_blog .info{display: inline-block;font-size:12px;color:#4d4d4d;}
+.cate_blog li{width:100%;clear:both;display:inline-block;font-size:16px;line-height:24px;color:#20596d;text-decoration:none;margin:0px 0px 8px 0px;overflow:hidden;vertical-align: middle;text-align: justify;}
+.cate_blog .readmore{display: inline-block;background:#20596d;color:#fff;padding:2px 5px;border-radius: 2px;}
+
+/* list_blog */
+.list_blog{}
+.list_blog .tally{color:#20596d;}
+.list_blog .info{display: inline-block;font-size:12px;color:#4d4d4d;}
+.list_blog li{width:100%;clear:both;display:inline-block;font-size:16px;line-height:24px;color:#20596d;text-decoration:none;margin:0px 0px 8px 0px;overflow:hidden;vertical-align: middle;text-align: justify;}
+.list_blog .readmore{display: inline-block;background:#20596d;color:#fff;padding:2px 5px;border-radius: 2px;}
+
+/* show_blog */
+.show_blog{}
+.show_blog .tally{color:#20596d;}
+.show_blog .info{display: inline-block;font-size:12px;color:#4d4d4d;}
+.show_blog li{width:100%;clear:both;display:inline-block;font-size:16px;line-height:24px;color:#20596d;text-decoration:none;margin:0px 0px 8px 0px;overflow:hidden;vertical-align: middle;text-align: justify;}
+.show_blog .readmore{display: inline-block;background:#20596d;color:#fff;padding:2px 5px;border-radius: 2px;}
+.show_blog .content{text-align: justify;}
 
 
 

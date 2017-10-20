@@ -5,7 +5,7 @@ if(typeof(dialog_style)=="undefined")
  {
   dialog_style="default";  //1表示纵向下拉，2表示横向下拉,其他数值则关闭
  }
-document.write("<link href=\"/gxss/style/five/js/incs/dialog/"+dialog_style+".css\" type=\"text/css\" rel=\"stylesheet\" />");
+document.write("<link href=\"/blog/style/five/js/incs/dialog/"+dialog_style+".css\" type=\"text/css\" rel=\"stylesheet\" />");
 if (!Array.prototype.push) {
     Array.prototype.push = function() {
         var startLength = this.length;

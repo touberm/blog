@@ -1,0 +1,23 @@
+{template "content","header"}
+<div class="container">
+  <div class="row list_blog">
+
+    <h3 class="tally">{$catname}</h3>
+    <ul>
+    {pc:content  action="lists" catid="$catid" order="id ASC" num="2" moreinfo="1"  page="$_GET[page]"}  
+    {loop $data $rr}
+      <li><div><a href="{$rr[url]}">{$rr[title]}</a><!-- <div class="info"><span class="author">作者:{$rr[author]}</span><span class="time">{date('Y-m-d H:i:s' ,$rr[inputtime])}</span></div> --></div></li>
+    {/loop}
+    <div class="pages text-center">
+      <!--<a class="a1">{$catid[items]}条</a>-->
+      <div>{$pages}</div>
+    </div>
+    {/pc}
+    </ul>
+    
+  </div>
+</div>
+
+
+
+{template "content","footer"}
